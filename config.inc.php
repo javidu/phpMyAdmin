@@ -28,9 +28,12 @@ $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
 /* Server parameters */
-$cfg['Servers'][$i]['host'] = 'juegopreguntas-mysql-javier.a3c1.starter-us-west-1.openshiftapps.com';
+$cfg['Servers'][$i]['host'] = 'mysql-javier.a3c1.starter-us-west-1.openshiftapps.com';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = true;
+$cfg['Servers'][$i]['user'] = 'javier';
+$cfg['Servers'][$i]['password'] = '1234';
+$cfg['Servers'][$i]['only_db'] = 'juego';
 
 /**
  * phpMyAdmin configuration storage settings.
